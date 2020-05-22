@@ -554,6 +554,18 @@ function dequeue(stackInput, stackOutput) {
 
   return stackOutput.pop();
 }
+
+// Or
+arr = [1,3,4,5,6,2];
+function enqueue(arr, item) { 
+   arr.push(item); 
+   arr.reverse();
+}
+  
+function dequeue(arr) { 
+    return arr.pop(); 
+}
+	
 ```
 
 ###### Source
