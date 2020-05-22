@@ -456,6 +456,15 @@ function uniqueArray(array) {
 
   return unique;
 }
+
+// Or
+var sArr = array.slice().sort();
+var result = [];
+for(var i=0; i<sArr.length; i++) {
+   if(sArr[i] !== sArr[i+1]) {
+      result.push(sArr[i])
+    }
+}
 ```
 
 ###### Source
@@ -476,6 +485,12 @@ var reverseEachWord = reverseBySeparator(reverseEntireSentence, " ");
 
 function reverseBySeparator(string, separator) {
   return string.split(separator).reverse().join(separator);
+}
+
+// Or
+var strRev="";
+for(i=string.length-1; i>=0; i--) {
+strRev += string[i];
 }
 ```
 
