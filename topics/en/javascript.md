@@ -686,8 +686,11 @@ Array.isArray(arrayList);
 ```
 
 `Array.isArray` is supported by Chrome 5, Firefox 4.0, IE 9, Opera 10.5 and Safari 5
+
+
 // Or
-arrayList.constructor==Array
+`arrayList.constructor==Array`
+
 
 ###### Source
 
